@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "name": "Silk Saree",
+        "price": 10000,
+        "category": "Clothing",
+        "image": "https://i.pinimg.com/736x/da/89/15/da8915e383f15ed39fe72cbb9eb4816c.jpg",
+        "stock": 12,
+        "rating": 4.8
+      },
+      {
+        "id": 2,
+        "name": "Cotton Saree",
+        "price": 9000,
+        "category": "Clothing",
+        "image": "https://thenmozhidesigns.com/cdn/shop/files/3S2A0396copy.jpg?v=1694837636&width=955",
+        "stock": 20,
+        "rating": 4.5
+      },
+      {
+        "id": 3,
+        "name": "Festive Panjabi",
+        "price": 6000,
+        "category": "Men's Wear",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_gipC2w6PHWc-EFkKURuBxKNiJylck2eOAfaZrvYB0ZLXdEeeosYXWn0a8F9P8maksBE&usqp=CAU",
+        "stock": 15,
+        "rating": 4.7
+      },
+      {
+        "id": 4,
+        "name": "Casual Panjabi",
+        "price": 5000,
+        "category": "Men's Wear",
+        "image": "https://mensworld.com.bd/wp-content/uploads/2024/03/2253.jpg",
+        "stock": 25,
+        "rating": 4.6
+      },
+      {
+        "id": 5,
+        "name": "Graphic T-Shirt",
+        "price": 2000,
+        "category": "Casual Wear",
+        "image": "https://www.thewarehouse.pk/cdn/shop/products/11_728e256e-c7f9-4f1b-bc0d-c25550e0fd0a.jpg?v=1657956253",
+        "stock": 50,
+        "rating": 4.3
+      },
+      {
+        "id": 6,
+        "name": "Polo T-Shirt",
+        "price": 2500,
+        "category": "Casual Wear",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAeZLw--fKNQHELFbE-XWueSZGOFSS61gd-HGRlPKrJvD48aITiYd-kJmUrhS9GKTtmVo&usqp=CAU",
+        "stock": 30,
+        "rating": 4.5
+      }
+]

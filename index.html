@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  
+</head>
+
+<body>
+
+
+<header>
+    <div class="navbar bg-base-100 shadow-sm">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+              <li><a>Home</a></li>
+              <li><a>About</a></li>
+              <li><a>products</a></li>
+            </ul>
+          </div>
+          <a class="btn btn-ghost text-xl"><img class="w-[50px]" src="./images/logo.png" alt=""> <h2 class="text-3xl font-bold">Online.shop</h2></a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li><a>Home</a></li>
+              <li><a>About</a></li>
+              <li><a>products</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end">
+
+        </div>
+      </div>
+</header>
+
+
+
+<section class="mt-10">
+
+
+  <div class="grid grid-cols-12 gap-3">
+
+
+
+
+    <div class="col-span-9 space-y-4  bg-white p-4">
+      
+     
+
+
+      <!-- left div -->
+
+
+      <div id="product-show" class="grid grid-cols-3 gap-3">
+     
+
+      </div>
+
+      
+    
+
+  </div>
+
+<!-- right div -->
+  <div class="bg-white h-full rounded-lg p-4 col-span-3 shadow flex flex-col items-center">
+    <div class="border-b-[1px] w-full border-dotted border-gray-300 my-2 flex flex-col items-center">
+
+        <div class="flex items-center justify-center gap-3">
+            <div>
+              <h2 class="text-xl">Add To Cart</h2>
+            </div>
+        </div>
+        <button id="order-now-btn" class="btn btn-primary my-3">Order Now</button>
+
+        <h2 class="text-xl py-2"><span id="sum-balance">0</span> Tk</h2>
+    </div>
+
+    <div id="cart-show">   
+      
+
+    </div>
+    </div>
+
+  </div>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./scripts/products.js"></script>
+</body>
+
+</html>
