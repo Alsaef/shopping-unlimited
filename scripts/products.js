@@ -54,6 +54,12 @@ const addToCart = (product) => {
   const subBalance = document.getElementById('sum-balance')
   let numberOfBalance = parseInt(subBalance.innerText)
 
+
+  if (numberOfBalance + product.price > 25000) {
+    alert('limited cart')
+    return
+  }
+
   numberOfBalance += product.price
 
   cart.push(product);
@@ -63,6 +69,8 @@ const addToCart = (product) => {
   const div = document.createElement('div')
 
   div.classList = 'my-3'
+
+ 
 
   div.innerHTML = `
        <div class="flex items-center justify-center gap-3 border px-3 py-2">
